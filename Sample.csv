@@ -1,0 +1,60 @@
+No,Name,Pre-condition,Test steps,Expected result,actual result,status,Check list
+tc0001,recovering a letter from the recycle bin,Logged in,"1. click the more button and select the trash icon
+2. with the right to choose the letter of interest
+3. After selecting the desired letter, click on the top three points and select Recover from the pop-up menu.","1 .shortcut list promotion
+2. There should be a list of letters in the basket
+3. letter recovery",,passed,recovering a letter from the recycle bin
+tc002,deleting a letter from sent,Logged in,"1. click on outgoing icon
+2. select the desired letter by ticking it
+3. Click Delete from the top of the menu.","1. opening the list of outgoing emails
+2. mark the letter of interest
+3. opening additional menu and deleting a letter",,passed,deleting a letter from sent
+tc003,changing the design of the mail client,Logged in,"1. click on the gear icon in the right corner
+2. select the Themes section
+3. select the theme of interest
+4. press the Save button","1. open menu
+2. Select the context menu with themes.
+3. Select a topic.
+4. applying the theme",,passed,changing the design of the mail client
+tc004,check spam basket,Logged in,"1. The list of actions to choose more
+2. select the Spam folder (with an exclamation mark)
+3. After reading, you need to see the letter.","1. view the list of folders
+2. select spam folder
+3. select letter of interest",,passed,spam folder check
+tc005,forwarding the received letter to another user,Logged in,"1. Open existing letter
+2. After opening, select the icon from the three points on the right in the center.
+3. Choose to send there
+4. Enter the desired address and click send.","1. select the desired letter
+2. choose who to send the letter
+3. sending a letter to the selected user",,passed,forwarding the received letter to another user
+tc006,creating a note in the calendar,Logged in,"1. Select the Calendar icon in the upper right corner
+2. Open it by clicking on the icon
+3. Select the desired date by clicking on it.
+4. enter the desired value or note and press the button Save","
+1. open calendar 
+2. create note
+3. save note",,passed,creating a note in the calendar
+tc007,creating chat in email client,Logged in,"1. click on the ""+"" icon at the bottom opposite your name
+2. Select a user with whom you want to chat.
+3. in the open box, you can send a private message","1. select chat
+2. user choice for chat
+3. start chat",,passed,creating chat in email client
+tc008,clean deleted messages,Logged in,"1. Open the menu as an icon in the list.
+2. select the folder deleted
+3. Mark the desired letters
+4. click on the context menu from the top of the three points and select to delete the selected","1. opening the folder deleted letters
+2. Select the desired letters
+3. deletion of interesting letters",,passed,empty recycle bin
+tc009,Enable offline mail access,Logged in,"1. select the gears icon in the right corner
+2. in the menu that opens, select the Offline section
+3. put a tick in front of offline mode
+4. apply saving settings","1. go to settings
+2. select offline mode.
+3. apply and save settings",,passed,check notification in the mail client
+tc010,"change
+Interface language",Logged in,"1. select the gears icon in the right corner
+2. in the menu that opens, select the Offline section
+3. select general section
+4. select the interface language of interest
+5. click save","1. go to settings
+2. in the general section, select the interface language and apply it",,passed,checking archive chats in the sweat client
