@@ -1,5 +1,5 @@
 No,Name,Pre-condition,Test steps,Expected result,actual result,status,Check list
-tc0001,recovering a letter from the recycle bin,Logged in,"1. click the more button and select the trash icon
+tc001,recovering a letter from the recycle bin,Logged in,"1. click the more button and select the trash icon
 2. with the right to choose the letter of interest
 3. After selecting the desired letter, click on the top three points and select Recover from the pop-up menu.","1 .shortcut list promotion
 2. There should be a list of letters in the basket
